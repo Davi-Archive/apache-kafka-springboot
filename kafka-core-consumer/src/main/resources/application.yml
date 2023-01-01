@@ -1,5 +1,6 @@
 spring:
+  main:
+    banner-mode: OFF
   kafka:
-    producer:
-      batch-size: 10
-      client-id: my-id
+    consumer:
+      group-id: default-spring-consumer
